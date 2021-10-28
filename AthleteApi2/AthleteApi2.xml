@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AthleteApi2</name>
+    </assembly>
+    <members>
+        <member name="M:AthleteApi2.Controllers.AthletesController.GetAllAthletes">
+            <summary>
+            Returns all athletes in our data
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AthleteApi2.Controllers.AthletesController.GetByCountry(System.String)">
+            <summary>
+            Finds an athlete by their country.
+            </summary>
+            <param name="country"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AthleteApi2.Controllers.AthletesController.GetAthleteById(System.Int32)">
+            <summary>
+            Finds a specific athlete
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AthleteApi2.Controllers.AthletesController.Post(AthleteLibrary.Athlete)">
+            <summary>
+            Adds an athlete  to our data.
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AthleteApi2.Controllers.AthletesController.Delete(System.Int32)">
+            <summary>
+            Removes an athlete from our data.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

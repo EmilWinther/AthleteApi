@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>C:\Users\Emil\Documents\Eksamen\AthleteApi2\AthleteApi2\AthleteApi2.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>C:\Users\Emil\Documents\Eksamen\AthleteApi2\AthleteApi2\AthleteApi2.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="AthleteLibrary">
+      <HintPath>..\..\AthleteLibrary\AthleteLibrary\bin\Debug\net5.0\AthleteLibrary.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
